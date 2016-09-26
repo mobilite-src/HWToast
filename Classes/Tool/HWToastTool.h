@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 FOUNDATION_EXPORT const NSTimeInterval HWToastDefaultDuration;
 
 @interface HWToastTool : NSObject
@@ -15,3 +17,5 @@ FOUNDATION_EXPORT const NSTimeInterval HWToastDefaultDuration;
 +(void)showToastWithText:(NSString*)text;
 
 @end
+
+NS_ASSUME_NONNULL_END

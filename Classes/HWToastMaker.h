@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @class HWToastView;
 
 typedef void(^HWToastTapBlock)(HWToastView *toastView);
@@ -20,7 +22,6 @@ typedef NS_ENUM(NSUInteger, HWToastPosition) {
     HWToastPositionLeft,
     HWToastPositionRight
 };
-
 
 @interface HWToastMaker : NSObject
 
@@ -65,3 +66,5 @@ typedef NS_ENUM(NSUInteger, HWToastPosition) {
 @property (nonatomic, assign) HWToastPosition position;
 
 @end
+
+NS_ASSUME_NONNULL_END

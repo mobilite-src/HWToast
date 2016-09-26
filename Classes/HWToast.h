@@ -10,6 +10,7 @@
 #import "HWToastMaker.h"
 #import "HWToastView.h"
 
+NS_ASSUME_NONNULL_BEGIN
 
 @interface HWToast : NSObject
 
@@ -32,3 +33,5 @@
 
 
 @end
+
+NS_ASSUME_NONNULL_END

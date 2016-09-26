@@ -8,6 +8,7 @@
 
 #import "HWToastView.h"
 
+NS_ASSUME_NONNULL_BEGIN
 
 typedef NS_ENUM(NSUInteger, HWToastLoadingStyle) {
     HWToastLoadingStyle1,
@@ -32,3 +33,5 @@ typedef NS_ENUM(NSUInteger, HWToastLoadingStyle) {
 -(instancetype)initWithLoadingText:(NSString*)string andStyle:(HWToastLoadingStyle)style;
 
 @end
+
+NS_ASSUME_NONNULL_END

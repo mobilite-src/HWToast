@@ -8,8 +8,12 @@
 
 #import "HWToastView.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface HWPieChartToastView : HWToastView
 
 @property (nonatomic, assign) float progress;
 
 @end
+
+NS_ASSUME_NONNULL_END
