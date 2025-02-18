@@ -40,21 +40,13 @@
 		96B5E75D1B5F43EF00D09207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96B5E75F1B5F43EF00D09207 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		96B5E7621B5F43EF00D09207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		96B5E77C1B5F45D100D09207 /* NSString+HWToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HWToast.h"; sourceTree = "<group>"; };
 		96B5E77D1B5F45D100D09207 /* NSString+HWToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HWToast.m"; sourceTree = "<group>"; };
-		96B5E77E1B5F45D100D09207 /* HWToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWToast.h; sourceTree = "<group>"; };
 		96B5E77F1B5F45D100D09207 /* HWToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWToast.m; sourceTree = "<group>"; };
-		96B5E7801B5F45D100D09207 /* HWToastMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWToastMaker.h; sourceTree = "<group>"; };
 		96B5E7811B5F45D100D09207 /* HWToastMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWToastMaker.m; sourceTree = "<group>"; };
-		96B5E7871B5F45D100D09207 /* HWLoadingToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWLoadingToastView.h; sourceTree = "<group>"; };
 		96B5E7881B5F45D100D09207 /* HWLoadingToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWLoadingToastView.m; sourceTree = "<group>"; };
-		96B5E7891B5F45D100D09207 /* HWPieChartToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPieChartToastView.h; sourceTree = "<group>"; };
 		96B5E78A1B5F45D100D09207 /* HWPieChartToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPieChartToastView.m; sourceTree = "<group>"; };
-		96B5E78D1B5F45D100D09207 /* HWToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWToastView.h; sourceTree = "<group>"; };
 		96B5E78E1B5F45D100D09207 /* HWToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWToastView.m; sourceTree = "<group>"; };
-		96B5E7901B5F45D100D09207 /* HWActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWActivityIndicatorView.h; sourceTree = "<group>"; };
 		96B5E7911B5F45D100D09207 /* HWActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWActivityIndicatorView.m; sourceTree = "<group>"; };
-		96B5E7921B5F45D100D09207 /* HWPieChartProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPieChartProgressView.h; sourceTree = "<group>"; };
 		96B5E7931B5F45D100D09207 /* HWPieChartProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPieChartProgressView.m; sourceTree = "<group>"; };
 		96B5E79F1B5F4BC500D09207 /* HWToastDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWToastDemoViewController.h; sourceTree = "<group>"; };
 		96B5E7A01B5F4BC500D09207 /* HWToastDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWToastDemoViewController.m; sourceTree = "<group>"; };
@@ -62,17 +54,25 @@
 		96B5E7A31B5F4C4100D09207 /* HWToolDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWToolDemoViewController.m; sourceTree = "<group>"; };
 		96B5E7A51B5F4C4F00D09207 /* HWPermanentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPermanentViewController.h; sourceTree = "<group>"; };
 		96B5E7A61B5F4C4F00D09207 /* HWPermanentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPermanentViewController.m; sourceTree = "<group>"; };
-		96B5E7A81B5F730F00D09207 /* UIView+HWToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HWToast.h"; sourceTree = "<group>"; };
 		96B5E7A91B5F730F00D09207 /* UIView+HWToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HWToast.m"; sourceTree = "<group>"; };
 		96B5E7AD1B5F83FC00D09207 /* HWToastImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HWToastImage.bundle; sourceTree = "<group>"; };
-		96B5E7B31B5F863500D09207 /* HWToastTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWToastTool.h; sourceTree = "<group>"; };
 		96B5E7B41B5F863500D09207 /* HWToastTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWToastTool.m; sourceTree = "<group>"; };
-		96B5E7B61B5F8E6F00D09207 /* HWToastTool+Permanent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HWToastTool+Permanent.h"; sourceTree = "<group>"; };
 		96B5E7B71B5F8E6F00D09207 /* HWToastTool+Permanent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HWToastTool+Permanent.m"; sourceTree = "<group>"; };
-		96B5E7BC1B5F90D400D09207 /* HWTextToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWTextToastView.h; sourceTree = "<group>"; };
 		96B5E7BD1B5F90D400D09207 /* HWTextToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWTextToastView.m; sourceTree = "<group>"; };
-		96B5E7C21B5FCEA200D09207 /* NSTimer+HWToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+HWToast.h"; sourceTree = "<group>"; };
 		96B5E7C31B5FCEA200D09207 /* NSTimer+HWToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+HWToast.m"; sourceTree = "<group>"; };
+		B59BD7D22D64DB94005CFA33 /* HWActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWActivityIndicatorView.h; sourceTree = "<group>"; };
+		B59BD7D32D64DB94005CFA33 /* HWLoadingToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWLoadingToastView.h; sourceTree = "<group>"; };
+		B59BD7D42D64DB94005CFA33 /* HWPieChartProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPieChartProgressView.h; sourceTree = "<group>"; };
+		B59BD7D52D64DB94005CFA33 /* HWPieChartToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPieChartToastView.h; sourceTree = "<group>"; };
+		B59BD7D62D64DB94005CFA33 /* HWTextToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWTextToastView.h; sourceTree = "<group>"; };
+		B59BD7D72D64DB94005CFA33 /* HWToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWToast.h; sourceTree = "<group>"; };
+		B59BD7D82D64DB94005CFA33 /* HWToastMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWToastMaker.h; sourceTree = "<group>"; };
+		B59BD7D92D64DB94005CFA33 /* HWToastTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWToastTool.h; sourceTree = "<group>"; };
+		B59BD7DA2D64DB94005CFA33 /* HWToastTool+Permanent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HWToastTool+Permanent.h"; sourceTree = "<group>"; };
+		B59BD7DB2D64DB94005CFA33 /* HWToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWToastView.h; sourceTree = "<group>"; };
+		B59BD7DC2D64DB94005CFA33 /* NSString+HWToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HWToast.h"; sourceTree = "<group>"; };
+		B59BD7DD2D64DB94005CFA33 /* NSTimer+HWToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+HWToast.h"; sourceTree = "<group>"; };
+		B59BD7DE2D64DB94005CFA33 /* UIView+HWToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HWToast.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,7 @@
 		96B5E7461B5F43EF00D09207 = {
 			isa = PBXGroup;
 			children = (
-				96B5E77A1B5F45D100D09207 /* Classes */,
+				96B5E77A1B5F45D100D09207 /* Sources */,
 				96B5E7511B5F43EF00D09207 /* HWToast */,
 				96B5E7501B5F43EF00D09207 /* Products */,
 			);
@@ -131,31 +131,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		96B5E77A1B5F45D100D09207 /* Classes */ = {
+		96B5E77A1B5F45D100D09207 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				B59BD7DF2D64DB94005CFA33 /* include */,
 				96B5E7AD1B5F83FC00D09207 /* HWToastImage.bundle */,
-				96B5E77E1B5F45D100D09207 /* HWToast.h */,
 				96B5E77F1B5F45D100D09207 /* HWToast.m */,
-				96B5E7801B5F45D100D09207 /* HWToastMaker.h */,
 				96B5E7811B5F45D100D09207 /* HWToastMaker.m */,
 				96B5E7821B5F45D100D09207 /* HWToastView */,
 				96B5E78F1B5F45D100D09207 /* View */,
 				96B5E7B21B5F862C00D09207 /* Tool */,
 				96B5E77B1B5F45D100D09207 /* Category */,
 			);
-			name = Classes;
-			path = ../Classes;
+			name = Sources;
+			path = ../Sources;
 			sourceTree = "<group>";
 		};
 		96B5E77B1B5F45D100D09207 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				96B5E77C1B5F45D100D09207 /* NSString+HWToast.h */,
 				96B5E77D1B5F45D100D09207 /* NSString+HWToast.m */,
-				96B5E7A81B5F730F00D09207 /* UIView+HWToast.h */,
 				96B5E7A91B5F730F00D09207 /* UIView+HWToast.m */,
-				96B5E7C21B5FCEA200D09207 /* NSTimer+HWToast.h */,
 				96B5E7C31B5FCEA200D09207 /* NSTimer+HWToast.m */,
 			);
 			path = Category;
@@ -164,13 +160,9 @@
 		96B5E7821B5F45D100D09207 /* HWToastView */ = {
 			isa = PBXGroup;
 			children = (
-				96B5E78D1B5F45D100D09207 /* HWToastView.h */,
 				96B5E78E1B5F45D100D09207 /* HWToastView.m */,
-				96B5E7BC1B5F90D400D09207 /* HWTextToastView.h */,
 				96B5E7BD1B5F90D400D09207 /* HWTextToastView.m */,
-				96B5E7871B5F45D100D09207 /* HWLoadingToastView.h */,
 				96B5E7881B5F45D100D09207 /* HWLoadingToastView.m */,
-				96B5E7891B5F45D100D09207 /* HWPieChartToastView.h */,
 				96B5E78A1B5F45D100D09207 /* HWPieChartToastView.m */,
 			);
 			path = HWToastView;
@@ -179,9 +171,7 @@
 		96B5E78F1B5F45D100D09207 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				96B5E7901B5F45D100D09207 /* HWActivityIndicatorView.h */,
 				96B5E7911B5F45D100D09207 /* HWActivityIndicatorView.m */,
-				96B5E7921B5F45D100D09207 /* HWPieChartProgressView.h */,
 				96B5E7931B5F45D100D09207 /* HWPieChartProgressView.m */,
 			);
 			path = View;
@@ -190,12 +180,30 @@
 		96B5E7B21B5F862C00D09207 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
-				96B5E7B31B5F863500D09207 /* HWToastTool.h */,
 				96B5E7B41B5F863500D09207 /* HWToastTool.m */,
-				96B5E7B61B5F8E6F00D09207 /* HWToastTool+Permanent.h */,
 				96B5E7B71B5F8E6F00D09207 /* HWToastTool+Permanent.m */,
 			);
 			path = Tool;
+			sourceTree = "<group>";
+		};
+		B59BD7DF2D64DB94005CFA33 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				B59BD7D22D64DB94005CFA33 /* HWActivityIndicatorView.h */,
+				B59BD7D32D64DB94005CFA33 /* HWLoadingToastView.h */,
+				B59BD7D42D64DB94005CFA33 /* HWPieChartProgressView.h */,
+				B59BD7D52D64DB94005CFA33 /* HWPieChartToastView.h */,
+				B59BD7D62D64DB94005CFA33 /* HWTextToastView.h */,
+				B59BD7D72D64DB94005CFA33 /* HWToast.h */,
+				B59BD7D82D64DB94005CFA33 /* HWToastMaker.h */,
+				B59BD7D92D64DB94005CFA33 /* HWToastTool.h */,
+				B59BD7DA2D64DB94005CFA33 /* HWToastTool+Permanent.h */,
+				B59BD7DB2D64DB94005CFA33 /* HWToastView.h */,
+				B59BD7DC2D64DB94005CFA33 /* NSString+HWToast.h */,
+				B59BD7DD2D64DB94005CFA33 /* NSTimer+HWToast.h */,
+				B59BD7DE2D64DB94005CFA33 /* UIView+HWToast.h */,
+			);
+			path = include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +245,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -399,6 +408,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HWToast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -409,6 +419,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HWToast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
