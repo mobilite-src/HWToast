@@ -16,7 +16,6 @@ let package = Package(
         .target(
             name: "HWToast",
             resources: [.process("HWToastImage.bundle")],
-            publicHeadersPath: "include",
             cSettings: [
                 .headerSearchPath("Sources/**/*.{h,m}")
             ]
