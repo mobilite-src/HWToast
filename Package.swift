@@ -15,10 +15,21 @@ let package = Package(
     targets: [
         .target(
             name: "HWToast",
-            resources: [.process("HWToastImage.bundle")],
-            cSettings: [
-                .headerSearchPath("Sources/**/*.{h,m}")
-            ]
+            path: "Sources",
+            exclude: ["HWToastImage.bundle"],
+            sources: [
+                "Category",
+                "HWToastView",
+                "include",
+                "HWToast.m",
+                "HWToastMaker.m",
+                "View",
+                "Tool"
+            ],
+            resources: [
+                .process("HWToastImage.bundle")
+            ],
+            publicHeadersPath: "include"
         )
     ],
     swiftLanguageVersions: [

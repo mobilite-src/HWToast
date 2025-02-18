@@ -1,0 +1,4 @@
+module HWToast {
+    header "Sources/include/HWToast.h" // Or the main header that imports all other headers
+    export *
+}

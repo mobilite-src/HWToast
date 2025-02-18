@@ -10,6 +10,17 @@
 #import "HWToastMaker.h"
 #import "HWToastView.h"
 
+#import "HWToastTool.h"
+#import "HWToastTool+Permanent.h"
+#import "UIView+HWToast.h"
+#import "NSString+HWToast.h"
+#import "NSTimer+HWToast.h"
+#import "HWTextToastView.h"
+#import "HWPieChartToastView.h"
+#import "HWLoadingToastView.h"
+#import "HWPieChartProgressView.h"
+#import "HWActivityIndicatorView.h"
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface HWToast : NSObject

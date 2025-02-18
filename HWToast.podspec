@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.source = { :git => "https://github.com/ChatGame/HWToast.git", :tag => "0.9" }
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.source_files  = "Sources/**/*.{h,m}"
-  s.resource = "Classes/HWToastImage.bundle"
+  s.resource = "Sources/HWToastImage.bundle"
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.requires_arc = true
 end
