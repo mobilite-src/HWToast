@@ -16,16 +16,6 @@ let package = Package(
         .target(
             name: "HWToast",
             path: "Sources",
-            exclude: ["HWToastImage.bundle"],
-            sources: [
-                "Category",
-                "HWToastView",
-                "include",
-                "HWToast.m",
-                "HWToastMaker.m",
-                "View",
-                "Tool"
-            ],
             resources: [
                 .process("HWToastImage.bundle")
             ],
