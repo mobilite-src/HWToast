@@ -1,0 +1,4 @@
+module HWToast {
+    header "Sources/include/HWToast.h"
+    export *
+}
